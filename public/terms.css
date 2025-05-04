@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: #101020;
+    color: #ffffff;
+  }
+  
+  .top-nav {
+    background-color: #111;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .top-nav li {
+    margin: 0 10px;
+  }
+  
+  .top-nav a {
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .top-nav a:hover,
+  .top-nav a.active {
+    color: #00ffea;
+    border-bottom: 2px solid #00ffea;
+  }
+  
+  .content {
+    margin-top: 80px;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content h1 {
+    font-size: 3em;
+    color: #00ffea;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .intro {
+    font-size: 1.1em;
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .terms-section {
+    margin-bottom: 30px;
+    background: #1a1a2f;
+    padding: 20px;
+    border-left: 4px solid #00ffea;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ffea33;
+  }
+  
+  .terms-section h2 {
+    color: #00ffea;
+    margin-bottom: 10px;
+  }
+  
+  .terms-section p {
+    color: #ccc;
+    line-height: 1.6;
+    font-size: 1em;
+  }
+  

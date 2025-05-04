@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000000;
+  color: white;
+}
+
+.top-nav {
+  background-color: #111;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgb(44, 44, 44);
+}
+
+.top-nav ul {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav li {
+  margin: 10 10px;
+}
+
+.top-nav a {
+  display: block;
+  color: #e100ff;
+  text-decoration: none;
+  padding: 16px 20px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.top-nav a:hover {
+  background-color: #000000;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.hero {
+  height: 100vh;
+  background: url('') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text {
+  background-color: rgba(23, 23, 23, 0.6);
+  stop-color: rgb(0, 255, 255);
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 600px;
+  
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #e100ff;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #ddd;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  background-color: #e100ff;
+  color: #0e0e1b;
+  padding: 14px 28px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #bf00ff;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+  .top-nav ul {
+    flex-wrap: wrap;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero-button {
+    padding: 12px 200px;
+    font-size: 14px;
+  }
+}
